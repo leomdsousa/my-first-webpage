@@ -1,6 +1,5 @@
 /* FADE IN NO CARREGAMENTO DA TELA */
 $(document).ready(function(){
-   /*$('#container').css({display:none})*/
     $("#container, .container-portfolio, #container_contato, .container-curriculo").fadeIn(1500); 
 });
 
@@ -100,8 +99,6 @@ $('.ver-mais-3').click(function(){
 $('#mostra-mais-menos-a').click(function(){
     if($('#rodape-novo').css('display') == 'block') {
         $('#rodape-novo').slideToggle();
-        /*$('#mostra-mais-menos-a').fadeOut(5);
-        $('#mostra-mais-menos-a').fadeIn(500);*/
         
         $('#mostra-mais-menos-a').fadeToggle('fast');
             $('#mostra-mais-menos-a').fadeToggle('fast');

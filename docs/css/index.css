@@ -86,11 +86,7 @@ p#texto_conteudo {
     border-bottom: 1px solid white;
     border-top: 1px solid white;
 }
-/*p#texto_conteudo::first-letter {
-    font-size: 300%;
-    text-transform: uppercase;
-    color: #b93434;
-}*/
+
 #texto_conteudo-1, 	#texto_conteudo-2,	#texto_conteudo-3 {
 	text-align: left;
 	font-family: 'Work Sans', sans-serif;
@@ -110,7 +106,6 @@ p#texto_conteudo {
     font-size: 92px;
     line-height: 1.5rem;
     padding-top: 31px;
-    /* margin-bottom: 43px; */
     letter-spacing: 0.75rem;
     padding-left: 0px;
     text-shadow: 3px 3px #010148;
@@ -123,7 +118,6 @@ p#texto_conteudo {
     font-size: 92px;
     line-height: 1.5rem;
     padding-top: 31px;
-    /* margin-bottom: 43px; */
     letter-spacing: 0.75rem;
     padding-left: 0px;
     text-shadow: 3px 3px #010148;
@@ -162,7 +156,6 @@ p#texto_banner {
 }	
 h2#nomedojogo {
 	font-size: 3.5rem;
-	/*font-family: 'Black Han Sans', sans-serif;*/
     font-family: 'Lovelo';
 	position: relative;
 	padding: 50px 50px 50px 50px;
@@ -330,16 +323,11 @@ li.li {
     border-bottom: 2px solid white;
 
 }
-/*#texto-final-pagina:hover {
-    border-bottom: 2px solid black;
-}*/
+
 div iframe {
     margin-bottom: 50px;
 }
-/*#marker {
-    color: white;
-    font-size: 3.125rem;
-}*/
+
 
 #criador {
     font-family: 'Poppins', sans-serif;
@@ -455,7 +443,6 @@ li.barras-cada {
 }
 li.barras-cada a {
     font-family: 'Raleway', sans-serif;
-	/*font-size: 1.25rem;*/
 	font-size: 1rem;
     color: white;
     text-decoration: none;
@@ -689,7 +676,6 @@ footer#rodape {
 }
 #btn-pagina-branca-2 {
     bottom: 200px;
-    /*left: 630px;*/
     left: 50%;
     padding: 0px;
     margin: 0px;
@@ -744,9 +730,7 @@ h2#videotitulo {
 
  @media screen and (max-width: 768px) {
  
-/*body {
-    overflow-x: hidden!important;
-}*/
+
 div#container {
     overflow: hidden!important;
 }
@@ -856,9 +840,7 @@ li.barras-cada a {
 /*======= SMARTPHONES ========= */
 
 @media screen and (max-width: 540px) {
-/*body {
-    overflow-x: hidden!important;
-}*/
+
 div#container {
     overflow: hidden!important;
 }
@@ -873,8 +855,6 @@ p#texto_banner, p#texto_conteudo, #texto_conteudo-1, #texto_conteudo-2, #texto_c
 	font-size: 1rem;
     width: 60%;
 	padding: 170px 0px 170px 0px;
-    /*vertical-align: middle;
-    position: relative;*/
 }
 #texto_conteudo::first-letter{
     font-size: 75px;
