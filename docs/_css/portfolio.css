@@ -1,0 +1,160 @@
+/*indicando que a lingua é latina*/	
+@charset "UTF-8"; 
+	
+/*importando fontes do google fontes */
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,800');
+	
+@import url('https://fonts.googleapis.com/css?family=Poppins:500,500i,800,800i');
+
+@import url('https://fonts.googleapis.com/css?family=Black+Han+Sans');
+
+@font-face{
+    font-family: 'Lovelo';
+    src: url("../_font/LoveloBlack.otf");
+}
+
+/* ============ não sei exatamente ===============*/
+
+html, body, div, h1, h2, h3, h4, h5 h6, p1 {
+	margin: 0; padding: 0; border: 0;
+}
+.container-portfolio {
+    overflow: hidden!important;
+    display: none;
+}
+#conteudo-portfolio {
+    background: #2a2a2a;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    /*display: none;*/
+}
+.categoria-1 {
+    width: 100%;
+    background: rgba(28, 28, 28, 0.72);
+    text-align: center;
+    margin-left: 0%;
+    margin-top: 90px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.categoria {
+    width: 100%;
+    background: #1c1c1c;
+    text-align: center;
+    margin-left: 0%;
+    margin-bottom: 20px;
+    text-align: center;
+    
+
+
+}
+.categoria-titulo-1 {
+    /*width: 100%;*/
+    padding: 30px 10px;
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 3.5rem;
+	font-family: 'Lovelo';    
+    text-shadow: 3px 3px #0377ff;
+    color: white;
+}
+.categoria-titulo {
+    /*width: 100%;*/
+    padding: 30px 10px;
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 3.5rem;
+	font-family: 'Lovelo';
+    text-shadow: 3px 3px #0377ff;
+    color: white;
+}
+
+.tags {
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}
+.tags-ul {
+    list-style: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-bottom: 2px solid white;
+
+}
+.tags-li {
+    display: inline-block;
+    font-size: 14px;
+    color: white;
+    padding-right: 50px;
+    font-family: 'Poppins', sans-serif;
+    line-height: 16px;
+    padding-bottom: 20px;
+    
+}
+.frase-gameplay-div {
+    text-align: center;
+    margin-bottom: 50px;
+}
+.frase-gameplay {
+    font-family: 'Lovelo';
+    font-size: 1rem;
+    color: white;
+    line-height: 2rem;
+    cursor: pointer;
+}
+.frase-gameplay:hover {
+    text-decoration: underline;
+}
+
+/*========= GALERIA DE IMAGENS ========== */
+
+.gallery {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+.gallery img {
+    height: auto;
+    padding: 0px;
+    margin: 10px;
+    width: 250px;
+    height: auto;
+    transition: 0.5s.;
+    opacity: .7;
+}
+.gallery img:hover {
+    opacity: 1;
+    -webkit-transform: scale(1.1);
+    outline: 3px solid blue;
+}
+
+
+@media screen and (max-width: 768px) {
+.gallery {
+     margin: 10px auto;
+     display: block;
+}
+         
+.gallery img {
+     margin-left: 7px;
+     margin-right: 7px;
+     width: 225px;
+     height: auto;
+     padding: 0px;
+     display: inline-block;
+     margin-top: 7px;
+     margin-bottom: 7px;
+}
+}
+@media screen and (max-width: 540px) {
+.categoria-1, .categoria {
+    width: 150%;
+    margin-left: -25%;
+}
+.categoria-titulo, .categoria-titulo-1 {
+    font-size: 2.25rem;
+    padding: 30px 5px;
+}
+}
